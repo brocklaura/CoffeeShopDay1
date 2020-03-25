@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>
+       Menu
+    </title>
+
+    <link href="~/css/menustyle.css" rel="stylesheet" />
+</head>
+
+@{
+    ViewData["Title"] = "Drink Menu";
+}
+
+<body>
+<h1>Drink Menu</h1>
+
+    
+<form method="get">
+    <p>Please choose your drink: </p>
+    <select name="IcedOrHottype">
+        <option value="Iced">Iced</option>
+        <option value="Hot">Hot</option>
+
+    </select>
+
+    <br />
+
+    <select name="flavor">
+        <option value="Vanilla">Vanilla</option>
+        <option value="Caramel">Caramel</option>
+        <option value="None">None</option>
+    </select>
+
+    <br />
+
+    <select name="LFEtype">
+        <option value="Latte">Latte</option>
+        <option value="Frappacino">Frappacino</option>
+        <option value="Espresso">Espresso</option>
+    </select>
+
+
+    <br />
+    <input type="submit" value="Order Now!" />
+
+</form>
+
+</body>
+
+</html>

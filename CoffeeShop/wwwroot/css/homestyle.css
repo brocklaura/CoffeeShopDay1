@@ -1,0 +1,38 @@
+﻿h1 {
+    text-align: center;
+    color: grey;
+    font-family: 'Freestyle Script';
+    border: 3px solid pink;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul li {
+    display: inline-block;
+    border: 1px solid gray;
+    background-color: pink;
+  
+    width: 25%;
+    font-size: larger;
+    font: 'Century Gothic';
+    text-align: center;
+}
+
+
+    ul li:hover {
+        background-color: dimgrey;
+        border: 0px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+
